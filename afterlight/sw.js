@@ -1,7 +1,7 @@
 /* AFTERLIGHT — service worker
    À chaque mise à jour du jeu : incrémente la version ci-dessous (v1 -> v2 -> v3...)
    pour que les téléphones re-téléchargent la nouvelle version. */
-const CACHE = 'afterlight-v1';
+const CACHE = 'afterlight-v2';
 const ASSETS = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
